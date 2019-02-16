@@ -1,0 +1,82 @@
+.title {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#mobil {
+    width: 200px;
+}
+ #mobil {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0% {left: 0px; top: 0px;}
+    
+    50% {left: 92%; top: 0px;}
+    100% {left: 0px; top: 0px;}
+}
+.item_list_right {
+    border: solid 1px grey;
+    float: right;
+    width: 69%;
+    height: 500px;
+    align-items: center;
+    overflow:auto;
+    background: red;
+     
+}
+.item_list_left {
+    border: solid 1px grey;
+    float: left;
+    width: 30%;
+    overflow:auto;
+    height: 500px;
+    background: red;
+    
+}
+.item_title {
+    text-align: center;
+    color: white;
+    background: green;
+    font-weight: bold;   
+}
+.bungkus_kiri {
+    display: grid;
+    
+    grid-template-columns: auto auto;
+    grid-gap: 2em 2em;
+}
+.item {
+    background: white;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.container_flex {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.item {
+    border: dotted 3px transparent;
+    border-color: black;
+}
+.item:hover {
+    border-color: black;
+    border: solid 3px;
+    
+    
+}
